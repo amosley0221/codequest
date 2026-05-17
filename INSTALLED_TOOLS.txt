@@ -1,0 +1,68 @@
+Code Quest Installed Tools
+Generated: 2026-05-17
+
+Availability Summary
+--------------------
+These desktop apps were installed into /Applications and can be used from other projects on this Mac:
+
+- Blender 5.1.1
+- Tiled 1.12.1
+- Rive 0.8.4865
+
+These npm packages were installed inside this project only:
+
+- @google/genai 2.3.0
+- @rive-app/canvas 2.37.7
+- @rive-app/webgl2 2.37.7
+- gsap 3.15.0
+- howler 2.2.4
+- matter-js 0.20.0
+- phaser 4.1.0
+- pixi.js 8.18.1
+- playwright 1.60.0
+- three 0.184.0
+- vite 8.0.13
+
+Project-Local Tooling
+---------------------
+Global npm was not available in this shell, so npm was installed locally at:
+
+.tools/npm/package/bin/npm-cli.js
+
+Use it from this project like this:
+
+node .tools/npm/package/bin/npm-cli.js run vite
+node .tools/npm/package/bin/npm-cli.js run playwright -- --version
+
+Playwright
+----------
+Playwright Chromium was downloaded into the user cache:
+
+/Users/antoniomosley/Library/Caches/ms-playwright
+
+It was verified by launching Chromium successfully.
+
+Nano Banana / Gemini Image Generation
+-------------------------------------
+Nano Banana is not installed as a local app. It is accessed through Google's Gemini image API.
+
+Installed support:
+
+- @google/genai npm package
+- scripts/nano-banana-generate.mjs
+
+Using Nano Banana still requires a GEMINI_API_KEY.
+
+Aseprite
+--------
+Aseprite was not installed.
+
+Reason: the official prebuilt macOS app is paid/account-gated. Building it from source would require a separate native build toolchain.
+
+Other Project Usage Notes
+-------------------------
+Codex can use Blender, Tiled, and Rive in other projects because they are installed in /Applications.
+
+The npm libraries are available to this Code Quest project. For a different project, Codex can either install the same packages into that project or copy/adapt this setup.
+
+The generated/browser vendor files in vendor/ are also local to this project unless copied elsewhere.
