@@ -3,10 +3,10 @@ services:
     name: codequest
     runtime: node
     plan: free
-    buildCommand: npm ci
+    buildCommand: npm ci --omit=dev --ignore-scripts
     startCommand: npm start
     autoDeploy: true
     healthCheckPath: /
     envVars:
       - key: NODE_VERSION
-        value: 24.14.0
+        value: 24.14.1
